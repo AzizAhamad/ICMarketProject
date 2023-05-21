@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1705.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICMarkets.API", "ICMarkets.API\ICMarkets.API.csproj", "{DA2277CB-4853-4A44-ACFD-871110FA67AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICMarkets.Application", "ICMarkets.Application\ICMarkets.Application.csproj", "{35B22B11-786D-418E-B3CD-B203EC435F59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICMarkets.Core", "ICMarkets.Core\ICMarkets.Core.csproj", "{77C54EC0-5D41-41EF-9CF0-DEDEA889BD58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICMarkets.Infrastructure", "ICMarkets.Infrastructure\ICMarkets.Infrastructure.csproj", "{ABC2C84D-5D53-40F5-9ADF-EFD83803CBA3}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{54E92071-C2D2-4F2F-B6FD-829D7270FF78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICMarkets.Tests", "ICMarkets.Tests\ICMarkets.Tests.csproj", "{00B45B7F-2661-41FF-9F21-E317132E3FCD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA2277CB-4853-4A44-ACFD-871110FA67AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA2277CB-4853-4A44-ACFD-871110FA67AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA2277CB-4853-4A44-ACFD-871110FA67AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA2277CB-4853-4A44-ACFD-871110FA67AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35B22B11-786D-418E-B3CD-B203EC435F59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35B22B11-786D-418E-B3CD-B203EC435F59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35B22B11-786D-418E-B3CD-B203EC435F59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35B22B11-786D-418E-B3CD-B203EC435F59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77C54EC0-5D41-41EF-9CF0-DEDEA889BD58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77C54EC0-5D41-41EF-9CF0-DEDEA889BD58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77C54EC0-5D41-41EF-9CF0-DEDEA889BD58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77C54EC0-5D41-41EF-9CF0-DEDEA889BD58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABC2C84D-5D53-40F5-9ADF-EFD83803CBA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABC2C84D-5D53-40F5-9ADF-EFD83803CBA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABC2C84D-5D53-40F5-9ADF-EFD83803CBA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABC2C84D-5D53-40F5-9ADF-EFD83803CBA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54E92071-C2D2-4F2F-B6FD-829D7270FF78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54E92071-C2D2-4F2F-B6FD-829D7270FF78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54E92071-C2D2-4F2F-B6FD-829D7270FF78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54E92071-C2D2-4F2F-B6FD-829D7270FF78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00B45B7F-2661-41FF-9F21-E317132E3FCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00B45B7F-2661-41FF-9F21-E317132E3FCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00B45B7F-2661-41FF-9F21-E317132E3FCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00B45B7F-2661-41FF-9F21-E317132E3FCD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1891E360-A5B7-4CBD-BBA7-16FACCA4BDF8}
+	EndGlobalSection
+EndGlobal

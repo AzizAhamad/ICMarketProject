@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Entities\" />
+    <None Remove="Repositories\" />
+    <None Remove="Repositories\Command\" />
+    <None Remove="Repositories\Command\Base\" />
+    <None Remove="Repositories\Query\" />
+    <None Remove="Repositories\Query\Base\" />
+    <None Remove="Entities\Base\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Entities\" />
+    <Folder Include="Repositories\" />
+    <Folder Include="Repositories\Command\" />
+    <Folder Include="Repositories\Command\Base\" />
+    <Folder Include="Repositories\Query\" />
+    <Folder Include="Repositories\Query\Base\" />
+    <Folder Include="Entities\Base\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+</Project>

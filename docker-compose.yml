@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  icmarkets.api:
+    image: ${DOCKER_REGISTRY-}icmarkets
+    build:
+      context: .
+      dockerfile: ICMarkets.API/Dockerfile
